@@ -26,9 +26,12 @@ img{
     --color-black: #2F2F2F;
     --color-accent: #5184EE;
     --color-details: #67728F;
+    --color-pink: #F56AB1;
+    --color-dark-pink: rgba(245, 106, 177, 0.30);
 
     --box-shadow-grey: 0 0 30px 0 rgba(98, 98, 98, 0.10);
     --box-shadow-blue: 0px 0px 20px 0px rgba(63, 109, 237, 0.30);
+    --box-shadow-pink: 0px 0px 20px 0px rgba(245, 106, 177, 0.20);
 
 }
 
@@ -70,6 +73,7 @@ body{
     display: flex;
     gap: 11px;
     align-items: center;
+    cursor: pointer;
 }
 
 .menu-img{
@@ -90,20 +94,23 @@ body{
     outline: none;
     background: transparent;
     color: var(--color-white);
-    padding: 10px 0 10px 15px ;
+    padding: 10px 0 10px 42px ;
     letter-spacing: 2px;
 }
 
 .search-input::placeholder{
-    color: var(--color-white);
+    color: rgba(255, 255, 255, 0.60);
     font-family: inherit;
-    font-weight: 400;
-    font-size: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 0.1;
 }
 
 .search-img{
     width: 24px;
     height: 24px;
+    cursor: pointer;
+
 }
 
 .search-box{
@@ -115,6 +122,7 @@ body{
 .user-img{
     width: 30px;
     height: 30px;
+    cursor: pointer;
 }
 
 
@@ -174,6 +182,7 @@ body{
 
 .hero_bottom-social-media img{
     width: 35px;
+    cursor: pointer;
 }
 
 
@@ -252,7 +261,8 @@ body{
 }
 
 .switch-checkbox:checked + .switch-label .switch-slider {
-    left: 160px;
+    left: 137px;
+    width: 153px;
 }
 
 .switch-checkbox:checked + .switch-label .switch-text.all {
@@ -263,4 +273,143 @@ body{
 .switch-checkbox:checked + .switch-label .switch-text.hot {
     color: var(--color-white);
     z-index: 1;
+}
+
+.popular-tours_filter-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.filter-options-list{
+    display: flex;
+    gap: 50px;
+}
+
+.filter-options-item{
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.clear-filter{
+    cursor: pointer;
+}
+
+.filter-options-item p, .clear-filter{
+    font-size: 17px;
+    color: var(--color-black);
+    font-weight: 500;
+}
+
+.filter-options-item img{
+    width: 8px;
+    height: 8px;
+}
+
+/*---cards---*/
+.tour-cards{
+    margin-top: 40px;
+}
+
+.tour-cards-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tour-cards-item{
+    width: 370px;
+    height: 477px;
+    border-radius: 30px;
+    background: var(--color-white);
+    box-shadow: var(--box-shadow-grey);
+    padding: 40px;
+    position: relative;
+
+}
+
+.tour-cards-item img{
+    width: 263px;
+    height: 257px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.card-date{
+    transform: rotate(90deg);
+    position: absolute;
+    top: 156px;
+    right: 5px;
+    color: var(--color-details);
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.card-info{
+    display: flex;
+    /*gap: 10px;*/
+    align-items: center;
+}
+
+.card-type{
+    border-radius: 20px;
+    background: var(--color-dark-pink);
+    box-shadow: var(--box-shadow-pink);
+    color: var(--color-pink);
+    font-size: 8px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 6px 23px;
+    margin-right: 10px;
+}
+
+.card-duration{
+    color: var(--color-details);
+    font-size: 9px;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 10px;
+}
+
+.card-city{
+    color: var(--color-black);
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.card-price{
+    color: var(--color-black);
+    line-height: normal;
+    font-size: 10px;
+
+}
+
+.card-price span{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.card-btn{
+    color: var(--color-accent);
+    font-size: 10px;
+    font-weight: 600;
+    line-height: normal;
+    width: 125px;
+    height: 40px;
+    border-radius: 13px;
+    background: rgba(63, 109, 237, 0.20);
+    box-shadow: 0 0 20px 0 rgba(139, 167, 244, 0.20);
+    border: none;
+    cursor: pointer;
 }
