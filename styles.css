@@ -310,13 +310,22 @@ body{
 
 /*---cards---*/
 .tour-cards{
-    margin-top: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1330px ;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .tour-cards-list{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 1160px ;
+    margin-top: 40px;
+
 }
 
 .tour-cards-item{
