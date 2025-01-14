@@ -22,7 +22,7 @@
                 </div>
                 <div class="search">
                     <label class="search-box">
-                        <input type="text" class="search-input" placeholder="Country"/>
+                        <input type="text" class="search-input" placeholder="Введіть країну"/>
                         <img class="search-img" src="./images/search.png" alt="search">
                     </label>
                 </div>
@@ -44,21 +44,27 @@
                         <img src="./images/Instagram.png" alt="instagram">
                         <img src="./images/Facebook.png" alt="facebook">
                     </div>
-                    <div class="hero_bottom-description">We are a travel company that loves what it does<br>
-                        because every day we see the happy eyes of our customers and hear from<br> them many enthusiastic words about the trips that were chosen<br>
-                        and provided by our company
+                    <div class="hero_bottom-description">Ми туристична компанія, яка обожнює те, що робить,<br>
+                        адже кожного дня ми бачимо щасливі очі наших клієнтів та чуємо від<br>
+                        них безліч захоплених слів від подорожей, які були обрані<br>
+                        та надані нашою компанією
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="popular-tours">
-            <h1 class="caption-h1">Popular tours</h1>
-
-            <div class="popular-tours_input-container">
-                <div class="switch-button">
-                    <input class="switch-button-checkbox" type="checkbox">
-                    <label class="switch-button-label"><span class="switch-button-label-span">All</span></label>
+            <div class="container">
+                <h1 class="caption-h1">Популярні тури</h1>
+                <div class="popular-tours_input-container">
+                    <div class="switch">
+                        <input type="checkbox" id="switch" class="switch-checkbox">
+                        <label for="switch" class="switch-label">
+                            <span class="switch-text all">Всі</span>
+                            <span class="switch-text hot">Гарячі тури</span>
+                            <span class="switch-slider"></span>
+                        </label>
+                    </div>
                 </div>
             </div>
 
