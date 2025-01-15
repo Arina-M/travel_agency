@@ -46,7 +46,7 @@ body{
     margin: 0 auto;
 }
 
-.caption-h1 {
+.caption-h2 {
     font-weight: 700;
     font-size: 50px;
     line-height: 1.07;
@@ -193,7 +193,7 @@ body{
     padding-top: 200px;
 }
 
-.popular-tours .caption-h1{
+.popular-tours .caption-h2{
     text-align: center;
 }
 
@@ -439,6 +439,7 @@ body{
 .about-company_container img{
     width: 570px;
     height: 690px;
+    border-radius: 70px;
 }
 
 .about-company_info p{
@@ -503,3 +504,72 @@ body{
     bottom: 100px;
     right: -75px;
 }
+
+
+
+/* -------reviews------------ */
+.reviews{
+    padding-top: 200px;
+}
+
+.reviews_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrows-container{
+    display: flex;
+    gap: 20px;
+}
+
+.reviews-cards-list{
+    display: flex;
+    margin-top: 46px;
+    justify-content: space-between;
+}
+
+.reviews-cards-item{
+    position: relative;
+}
+
+.reviews-cards-item img{
+    width: 570px;
+    height: 415px;
+}
+
+.review-info{
+    position: absolute;
+    top: 116px;
+    left: 55px;
+}
+
+.review-text{
+    color: #000;
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 470px;
+    /*position: absolute;*/
+    /*top: 122px;*/
+    /*left: 55px;*/
+    margin-bottom: 30px ;
+}
+
+.review-user{
+    color: var(--color-accent);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    /*margin-top: 30px;*/
+    /*position: absolute;*/
+    margin: 0 auto;
+    /*top: 242px;*/
+    /*left: 225px;*/
+}
+
+
