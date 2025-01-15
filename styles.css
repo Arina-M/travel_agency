@@ -37,6 +37,7 @@ img{
 
 body{
     font-family: var(--font-family);
+    background: #F7F7F8;
 }
 
 .container{
@@ -189,7 +190,7 @@ body{
 /*  ------------------POPULAR TOURS-----------------  */
 
 .popular-tours{
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .popular-tours .caption-h1{
@@ -200,7 +201,6 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 30px;
-
 }
 
 .switch {
@@ -421,4 +421,85 @@ body{
     box-shadow: 0 0 20px 0 rgba(139, 167, 244, 0.20);
     border: none;
     cursor: pointer;
+}
+
+
+
+/* --------About company---------- */
+.about-company{
+    padding-top: 159px;
+}
+
+.about-company_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-company_container img{
+    width: 570px;
+    height: 690px;
+}
+
+.about-company_info p{
+    color: var(--color-black);
+    font-size: 15px;
+    line-height: 150%;
+    width: 470px;
+}
+
+.about-company_info p:nth-child(2){
+    margin-top: 40px;
+}
+
+.about-company_info p:nth-child(3){
+    margin-top: 30px;
+}
+
+.about-company_image-container{
+    position: relative;
+}
+
+.image-feature{
+    border-radius: 40px;
+    background: var(--color-white);
+    box-shadow: 0 0 30px 0 rgba(195, 195, 195, 0.10);
+    text-align: center;
+    width: 200px;
+    height: 129px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-feature p:nth-child(1){
+  color: var(--color-accent);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.image-feature p:nth-child(2){
+    color: var(--color-black);
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.position1{
+    position: absolute;
+    top: 100px;
+    right: -75px;
+}
+
+.position2{
+    position: absolute;
+    top: 281px;
+    left: -70px;
+}
+
+.position3{
+    position: absolute;
+    bottom: 100px;
+    right: -75px;
 }
