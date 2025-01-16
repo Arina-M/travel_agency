@@ -507,7 +507,7 @@ body{
 
 
 
-/* -------reviews------------ */
+/* ----------Reviews--------------- */
 .reviews{
     padding-top: 200px;
 }
@@ -540,11 +540,6 @@ body{
     background-repeat: no-repeat;
     width: 570px;
     height: 415px;
-}
-
-.review-info{
-    /*margin-top: 50px;*/
-
 }
 
 .review-text{
@@ -618,3 +613,59 @@ body{
     cursor: pointer;
     margin-top: 60px;
 }
+
+
+
+/* --------Contacts----------- */
+.contacts{
+    padding-top: 200px;
+}
+
+.contacts-container .caption-h2{
+    text-align: center;
+}
+
+.contacts-caption{
+    color: var(--color-black);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 30px;
+
+}
+
+.contacts-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+
+}
+
+.contacts-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacts-list-item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+
+}
+
+.contacts-list-item img{
+    width: 30px;
+    height: 30px;
+}
+
+.contacts-list-item p{
+    color: var(--color-black);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
