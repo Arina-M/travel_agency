@@ -619,6 +619,7 @@ body{
 /* --------Contacts----------- */
 .contacts{
     padding-top: 200px;
+    padding-bottom: 202px;
 }
 
 .contacts-container .caption-h2{
@@ -669,3 +670,59 @@ body{
     line-height: normal;
 }
 
+
+
+/* ---------------------Footer--------------------- */
+.footer{
+    background: var(--color-white);
+    border-radius: 70px 70px 0 0;
+    box-shadow: var(--box-shadow-grey);
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.footer-caption-travel{
+    color: var(--color-black);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-caption{
+    color: var(--color-black);
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer-menu-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-address-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-work-list{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-menu-item, .footer-address-item, .footer-work-item{
+    color: var(--color-black);
+    font-size: 14px;
+    line-height: 170%;
+}
+
+.arrow-up{
+    width: 60px;
+    height: 60px;
+}
